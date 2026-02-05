@@ -2,59 +2,284 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Ethnic Health Book Store</title>
+    <title>Ethnic Health Book Store | Natural & Integrative Health Books in Nigeria</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Explore natural health books on herbal medicine, acupuncture, homeopathy, Ayurveda, and integrative medicine. Library setup services for schools, hospitals, and wellness centers."
+    />
+    <meta
+      name="keywords"
+      content="Natural health books, herbal medicine books, integrative medicine, acupuncture books, Ayurveda, homeopathy, wellness library, Ethnic Health Book Store"
+    />
     <link rel="stylesheet" href="styles.css" />
-    <!-- Paystack InlineJS v2 -->
-    <script src="https://js.paystack.co/v2/inline.js"></script>
   </head>
   <body>
     <header class="header">
       <div class="container header-content">
-        <h1 class="logo">Ethnic Health Book Store</h1>
-        <div class="cart-summary" id="cart-summary">
-          <span id="cart-count">0 items</span>
-          <span id="cart-total">₦0.00</span>
-        </div>
+        <a href="index.html" class="logo-link">
+          <h1 class="logo">Ethnic Health Book Store</h1>
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link nav-link-active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="shop.html" class="nav-link">Shop</a>
+          <a href="#library-services" class="nav-link">Library Services</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
       </div>
     </header>
 
-    <main class="container main">
-      <section class="books-section">
-        <h2>Available Books</h2>
-        <div id="books-grid" class="books-grid"></div>
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Welcome to Ethnic Health Book Store</p>
+            <h2>Explore the World of Natural Health Knowledge</h2>
+            <p class="hero-subtitle">
+              Books on herbal medicine, acupuncture, homeopathy, Ayurveda, naturopathy,
+              integrative health and more – for students, practitioners, and wellness seekers.
+            </p>
+            <div class="hero-actions">
+              <a href="shop.html" class="btn primary">Shop Books Now</a>
+              <a href="#about" class="btn btn-outline">Learn More</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-card">
+              <div class="hero-orbit"></div>
+              <div class="hero-globe"></div>
+              <div class="hero-book">
+                <span class="hero-book-spine">Ethnic Health</span>
+                <span class="hero-book-title">Natural Healing Library</span>
+              </div>
+              <p class="hero-tagline">
+                Curated books from global authors on holistic and integrative medicine.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <aside class="cart-section">
-        <h2>Your Cart</h2>
-        <div id="cart-items" class="cart-items empty-state">
-          <p>Your cart is empty. Add some books!</p>
-        </div>
-        <div class="cart-footer">
-          <div class="cart-totals">
-            <span>Subtotal:</span>
-            <strong id="cart-subtotal">₦0.00</strong>
+      <!-- Features / value props -->
+      <section class="section">
+        <div class="container">
+          <h3 class="section-title">Why Ethnic Health Book Store?</h3>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h4>Global Health Books</h4>
+              <p>
+                Carefully selected titles from leading authors around the world, focused on
+                natural and integrative health.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h4>Integrative Medicine Guides</h4>
+              <p>
+                Learn how traditional therapies and modern medicine can work together for
+                prevention, healing, and long‑term wellness.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h4>Library Setup Services</h4>
+              <p>
+                We help schools, hospitals, clinics, and wellness centers build complete
+                natural health libraries.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h4>Wellness Resources</h4>
+              <p>
+                Practical books and guides on lifestyle, nutrition, stress management, and
+                everyday self‑care.
+              </p>
+            </article>
           </div>
-          <button id="checkout-button" class="btn primary" disabled>
-            Pay with Paystack
-          </button>
-          <p class="note">
-            Use your <strong>Paystack test public key</strong> in
-            <code>app.js</code> before going live.
-          </p>
         </div>
-      </aside>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container two-column">
+          <div>
+            <h3 class="section-title">About Ethnic Health Book Store</h3>
+            <p>
+              Ethnic Health Book Store is your trusted hub for natural and integrative health
+              knowledge. We connect you with credible, practical, and culturally relevant
+              resources on holistic health.
+            </p>
+            <h4>Our Mission</h4>
+            <p>
+              To make reliable natural health information accessible to individuals,
+              practitioners, and institutions across Africa and beyond.
+            </p>
+            <h4>Our Vision</h4>
+            <p>
+              To empower communities worldwide through knowledge of holistic and integrative
+              health practices.
+            </p>
+          </div>
+          <div>
+            <h4>What We Offer</h4>
+            <ul class="list">
+              <li>Books on herbal medicine, acupuncture, homeopathy, Ayurveda, and more.</li>
+              <li>Anatomy &amp; physiology, weight management, and lifestyle medicine titles.</li>
+              <li>Library setup services for schools, hospitals, wellness centers, and clinics.</li>
+              <li>Resources for students, professionals, and wellness enthusiasts.</li>
+            </ul>
+            <a href="shop.html" class="btn primary">Visit Our Store</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Library services -->
+      <section class="section section-alt" id="library-services">
+        <div class="container two-column">
+          <div>
+            <h3 class="section-title">Library Setup Services</h3>
+            <p>
+              We help schools, hospitals, wellness centers, and clinics set up natural health
+              libraries with carefully curated books and resources.
+            </p>
+            <h4>Benefits</h4>
+            <ul class="list">
+              <li>Access to global natural and integrative health knowledge.</li>
+              <li>Support for education, training, and research programmes.</li>
+              <li>Resources for professional development and patient education.</li>
+            </ul>
+          </div>
+          <div>
+            <h4>How It Works</h4>
+            <ol class="list list-numbered">
+              <li><strong>Consultation</strong> – We understand your goals, audience, and budget.</li>
+              <li><strong>Selection</strong> – We recommend and curate the right mix of books.</li>
+              <li><strong>Setup</strong> – We supply, organise, and help you launch your library.</li>
+            </ol>
+            <a href="#contact" class="btn primary">Request a Library Setup</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Categories / Shop preview -->
+      <section class="section">
+        <div class="container">
+          <h3 class="section-title">Shop by Category</h3>
+          <p class="section-subtitle">
+            Browse key areas of natural and integrative medicine. Visit the store to see all titles.
+          </p>
+          <div class="category-grid">
+            <article class="category-card">
+              <h4>Herbal Medicine</h4>
+              <p>Traditional plant‑based remedies and modern phytotherapy references.</p>
+            </article>
+            <article class="category-card">
+              <h4>Acupuncture</h4>
+              <p>Guides and atlases on meridians, points, and clinical applications.</p>
+            </article>
+            <article class="category-card">
+              <h4>Homeopathy</h4>
+              <p>Materia medica, repertories, and case‑based introductions.</p>
+            </article>
+            <article class="category-card">
+              <h4>Ayurveda</h4>
+              <p>Classical texts and modern interpretations of India’s ancient system.</p>
+            </article>
+            <article class="category-card">
+              <h4>Naturopathy &amp; Lifestyle</h4>
+              <p>Natural lifestyle medicine, prevention, and self‑care resources.</p>
+            </article>
+            <article class="category-card">
+              <h4>Integrative Medicine</h4>
+              <p>Evidence‑based books that bridge conventional and traditional care.</p>
+            </article>
+          </div>
+          <div class="section-cta">
+            <a href="shop.html" class="btn primary">Browse Our Full Collection</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section section-alt" id="contact">
+        <div class="container two-column">
+          <div>
+            <h3 class="section-title">Contact Us</h3>
+            <p>
+              Visit our store or reach out to discuss book orders, library projects, or
+              partnership opportunities.
+            </p>
+            <ul class="list">
+              <li><strong>Address:</strong> 82 Shyllon Street, Ilupeju Palm Grove, Lagos</li>
+              <li><strong>Phone:</strong> 08037208445</li>
+              <li><strong>Email:</strong> info@ethnichealthbookstore.com</li>
+            </ul>
+          </div>
+          <div>
+            <form class="contact-form">
+              <div class="form-row">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Your name" />
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="you@example.com" />
+              </div>
+              <div class="form-row">
+                <label for="subject">Subject</label>
+                <input id="subject" type="text" placeholder="Library setup, bulk order..." />
+              </div>
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  rows="4"
+                  placeholder="Tell us how we can help..."
+                ></textarea>
+              </div>
+              <button type="button" class="btn primary">Send Us a Message</button>
+              <p class="form-note">
+                For urgent enquiries, please call <strong>08037208445</strong>.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-grid">
+        <div class="footer-column">
+          <h3>Ethnic Health Book Store</h3>
+          <p>
+            Natural and integrative health knowledge for students, practitioners,
+            and wellness seekers.
+          </p>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="#library-services">Library Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <p>82 Shyllon Street, Ilupeju Palm Grove, Lagos</p>
+          <p>Phone: 08037208445</p>
+          <p>Email: info@ethnichealthbookstore.com</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
         <p>
           <strong>These books are available for fast fingers – call 08037208445 to order.</strong>
         </p>
+        <p>© 2026 Ethnic Health Book Store – All Rights Reserved</p>
       </div>
     </footer>
-
-    <script src="app.js"></script>
   </body>
 </html>
 
